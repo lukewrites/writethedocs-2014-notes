@@ -1,5 +1,6 @@
 #Write the Docs
-A conference on writing documentation
+A conference on writing documentation.
+These notes are notes, not a stenographic record. They're also not spell checked.
 
 ##Monday
 
@@ -138,3 +139,5 @@ A conference on writing documentation
     * If your organization loves chronology, keep it.
     * If you _are_ a courtroom stenographer, record everything.
     * If your org has a style guide, stick to it (until you can change it).
+
+Hacking the English Language - [Nina Vyedin]()
