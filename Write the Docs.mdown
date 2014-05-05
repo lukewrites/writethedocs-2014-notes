@@ -141,3 +141,29 @@ These notes are notes, not a stenographic record. They're also not spell checked
     * If your org has a style guide, stick to it (until you can change it).
 
 Hacking the English Language - [Nina Vyedin]()
+
+_Or, what we can steal from programmers_
+
+* Documentation can be helped by giving writers a default framework in which to write/work.
+* Have templates for oft-written stuff: blog posts, references
+* Make sure you know what question a doc is trying to answer.
+* **make a spec** for your doc and make sure everyone involved knows the specs.
+    * what are the questions you're answering?
+    * who is the audience?
+    * what is the current state of documentation?
+        * new content, existing content (including 3rd party docs)
+    * what's the work plan?
+        * who owns it, who revises it?
+* adapting the idea of _design patterns_ to writing; start a doc with an architecture. examples:
+    * **tell a story** linear timeline (walkthrough)
+    * **paint a picture** spapshot (introduce feature/tool)
+    * **reference** introduce one at a time and describe
+    * **theme + situation** idea and use cases (intro to concept)
+    * **drill down** general -> specific
+    * **level up** simple to complex (getting started.doc)
+* Errors/name your variables
+    * Undefined 'it'
+    * No ownership (avoid magic. [that doesn't mean no django])
+    * Vague terms (don't use generic tech terms)
+    * Unnamed ideas
+* Idea of _refactoring_ vs _editing_
