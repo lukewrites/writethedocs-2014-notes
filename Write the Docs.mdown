@@ -167,3 +167,15 @@ _Or, what we can steal from programmers_
     * Vague terms (don't use generic tech terms)
     * Unnamed ideas
 * Idea of _refactoring_ vs _editing_
+
+###Open Source Docs the Hard Way - [Anne Gentle](http://justwriteclick.com/)
+
+* Seems like the 80/20 'principle' (editorial scarequotes there); a small segment of contributers put in the bulk of the work.
+* Book sprints!
+    * [OpenStack](http://openstack.org) flew in a whole bunch of writing volunteers and wrote the _OpenStack Operations Guide_, which wound up being published by O'Reilly.
+* OSS works; open source docs can work, too.
+
+###Other Lightening Talk Notes
+* Making documentation measurable and repeatable.
+    * How do we plan?
+    * What goals are we trying to achieve?
