@@ -207,4 +207,12 @@ _Or, what we can steal from programmers_
 
 ###TechDocs at Twitter: Creating the Culture of Documentation - [Simeon Franklin](http://twitter.com/markog) & [Marko Gargenta](http://twitter.com/simeonfranklin)
 
-* 
+* What does it mean to do technical documentation (engineer to engineer)?
+* Treat docs like code; written by engineers
+* Made a plan. e.g. DocDay -> Templates -> DocBird (platform)
+* Wikis are messy. Not the best solution
+* If developers are writing code, _use the existing code workflow_.
+    * Check in! Version, check, merge!
+    * Harder for the writers, but much easier for the developers.
+* [ReStructuredText](http://docutils.sourceforge.net/rst.html)
+* Thinking of documentation as a platform opens up all sort of cool possibilities.
