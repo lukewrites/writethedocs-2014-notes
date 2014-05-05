@@ -47,7 +47,7 @@ A conference on writing documentation
     * How can you bring more people in?
     * What opportunities can the community bring to you?
 
-###The New Sheriff in Town: Bringing Documentation Out of Chaos - Heidi Waterhouse
+###The New Sheriff in Town: Bringing Documentation Out of Chaos - [Heidi Waterhouse](http://twitter.com/wiredferret/)
 
 * Believe in your own expertise and authority. Then, get to writing.
 * Set Up Shop:
@@ -82,4 +82,16 @@ A conference on writing documentation
         * Are people writing docs and not thinking of themselves are part of the doc team?
 * **Build infrastructure**
     * After you put out the fires, make sure you've got structure to keep things going.
+    * Go to meetings. Make sure that docs are part of the agenda.
+    * **Plat your documents** - Plating is designating spaces for certain use.
+        * Can customers **use** the product?
+        * Can installers **configure** it?
+        * Can advanced users **customize** it? (e.g. apis)
+        * Can users **fix** things when they go wrong?
+        * You'll need a **reference** guide for when things get too big to remember off the top of your head.
+            * Or for when you get bitten by a rattlesnake/go on vacation and aren't around to give all the answers.
+* **Sheriff or Texas Ranger**?
+    * Do you want to shoot the bandits and leave? Then you're a Texas Ranger
+    * Do you want to live in the town and be part of the community? Then you're a sherriff.
+
 
