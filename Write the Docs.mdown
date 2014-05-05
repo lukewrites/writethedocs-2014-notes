@@ -79,5 +79,7 @@ A conference on writing documentation
     * **Stuff from the last sherrif**
         * Did previous writers leave behind a bunch of junk that needs to be taken care of?
     * **Bring in the vigilantes**
-        
+        * Are people writing docs and not thinking of themselves are part of the doc team?
+* **Build infrastructure**
+    * After you put out the fires, make sure you've got structure to keep things going.
 
