@@ -1,0 +1,83 @@
+#Write the Docs
+A conference on writing documentation
+
+##Monday
+
+###Flow: A Permaculture Approach to Documentation [Homer Christensen](http://homerchristensen.com)
+
+* Applying Permaculture idea(l) to docs:
+    * Observe, Design, Evolve
+* Project Planning: Patterns
+      * When planning projects, you’re using what you’ve got to reach your goals.
+      * If living systems have natural proclivities, what are the proclivities of your group?
+           * This is a restatement of a basic leadership idea: know your people, know your strengths and weaknesses
+* Design
+     * Zones are ‘areas of access’ in permaculture.
+
+###Communities are Awesome - Ali Spivak
+
+* [MDN](https://developer.mozilla.org/en-US/), the mozilla developer network, is an OS wiki; relies upon the community
+* MDN is trying to doc everything that matters to developers. This is difficult since the web is big. (This means that MDN is big, too.)
+* Leveraging the power of the community lets MDN document as much as it does. There's paid staff and there's community.
+* Benefit of community is that it gives you a wide range of experience, opinions, backgrounds. This lets you know what matters to users (and users in different contexts).
+* Important to see users as _peers_; they're not your minions. (Great word, Ali.)
+    * Users are 'partners on a journey'.
+    * You don't offload crappy work on them, you don't _tell_ them what to do.
+* Provide opportunity.
+    * If you say 'Hey, X needs some documentation', people are likely to take you up on it.
+* Intrinsic (internal) motivation is important
+    * Users will help because they want to, because they feel pleasure from doing so.
+    * People like contributing their expertise to a large audience of peers.
+        * e.g. Burning Man
+* Three Elements of Motivation:
+    1. Autonomy
+    2. Mastery
+    3. Purpose
+    * Check out the book _Drive_ for more about motivation.
+* The importance of values
+    * Values (clearly stated) give communities something around which to coalesce.
+    * Clearly these need to be organically developed.
+    * If your company adheres to and exemplifies these values, this makes it part of the community, not some asshole in a suit treating the community members like unpaid idiot minions.
+* Collaboration helps you to avoid making wrong decisions.
+    * If users don't want to do it, maybe it isn't the right thing to do.
+* There isn't necessarily one best way to build a community.
+    * What are you passionate about? How can you share that passion with others?
+    * What opportunities can you provide to the community?
+    * How can you create community?
+    * How can you bring more people in?
+    * What opportunities can the community bring to you?
+
+###The New Sheriff in Town: Bringing Documentation Out of Chaos - Heidi Waterhouse
+
+* Believe in your own expertise and authority. Then, get to writing.
+* Set Up Shop:
+    1. **Make a seating chart** Make a seating chart of who is who in the office.
+        * Names, specialties
+    2. **Map existing documentation** e.g. marketing whitepapers, wikis, etc.
+        * Make sure you have access
+        * Be willing to dig.
+        * You need to see everything in the compay except salaries.
+    3. **Get to know the neighborhood** (competitors and users)
+        * Read competitiors' docs.
+        * (users?)
+* Draw Fast
+    * **No time for frills**
+        * just start writing
+    * **Deliver fast and often**
+    * **Emergencies first, precisions second**
+        * formatting, readability, localization comes second to putting out fires.
+* Save the townspeople
+    * **Address biggest pain point**
+    * **Provide structure to ask q and get feedback**
+        * Bugtrackers
+        * Declare docs equivalent to code. Needs to be pushed with code.
+        * Track doc bugs with code bugs.
+            * Provides accountability.
+* **Check for scorpions** (these are situations, not people)
+    * **Hoarded documentation** Is there a bunch of unreadable docs out there?
+        * DO people feel some sort of propriatary interest that is keeping them from sharing their docss?
+    * **Stuff from the last sherrif**
+        * Did previous writers leave behind a bunch of junk that needs to be taken care of?
+    * **Bring in the vigilantes**
+        
+
