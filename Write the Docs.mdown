@@ -175,3 +175,15 @@ _Or, what we can steal from programmers_
     * [OpenStack](http://openstack.org) flew in a whole bunch of writing volunteers and wrote the _OpenStack Operations Guide_, which wound up being published by O'Reilly.
 * OSS works; open source docs can work, too.
 
+###Documenting Domain Specific Knowledge - Alex Gaynor
+
+* Think about who the documentation is for.
+* Audience – set of knowledge people will come with.
+* Document according to audiences; e.g. new users and experts
+* Thinks that _straight line docs_ are best; optional stuff can be linked. Trim the fat, it distracts.
+* No assumptions: e.g. no jargon.
+* It's fine to be prescriptive. You're an expert; share that expertise by informing the reader as to best practices. (Drowning readers in options is often, IMHO, a form of showbloating.)
+* Addressing _use cases_ is great. Finding out what use cases the community wants/needs is probably difficult if you don't have a strong community. Good argument for not treating your community like minions/rubes, btw.
+* If users have to go to Stack Overflow to figure out your docs, your docs fail.
+* Learners often don't know what they don't know. The docs need to inform users of everything they ought to know.
+* Users asking 'How do I X?' is feedback on docs.
