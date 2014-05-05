@@ -140,7 +140,7 @@ These notes are notes, not a stenographic record. They're also not spell checked
     * If you _are_ a courtroom stenographer, record everything.
     * If your org has a style guide, stick to it (until you can change it).
 
-Hacking the English Language - [Nina Vyedin]()
+###Hacking the English Language - [Nina Vyedin]()
 
 _Or, what we can steal from programmers_
 
@@ -175,7 +175,3 @@ _Or, what we can steal from programmers_
     * [OpenStack](http://openstack.org) flew in a whole bunch of writing volunteers and wrote the _OpenStack Operations Guide_, which wound up being published by O'Reilly.
 * OSS works; open source docs can work, too.
 
-###Other Lightening Talk Notes
-* Making documentation measurable and repeatable.
-    * How do we plan?
-    * What goals are we trying to achieve?
