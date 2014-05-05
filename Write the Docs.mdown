@@ -175,7 +175,7 @@ _Or, what we can steal from programmers_
     * [OpenStack](http://openstack.org) flew in a whole bunch of writing volunteers and wrote the _OpenStack Operations Guide_, which wound up being published by O'Reilly.
 * OSS works; open source docs can work, too.
 
-###Documenting Domain Specific Knowledge - Alex Gaynor
+###Documenting Domain Specific Knowledge - [Alex Gaynor](https://speakerdeck.com/alex)
 
 * Think about who the documentation is for.
 * Audience – set of knowledge people will come with.
@@ -187,3 +187,24 @@ _Or, what we can steal from programmers_
 * If users have to go to Stack Overflow to figure out your docs, your docs fail.
 * Learners often don't know what they don't know. The docs need to inform users of everything they ought to know.
 * Users asking 'How do I X?' is feedback on docs.
+
+###Graphical Explanations - [Geoffrey Grosenbach](http://twitter.com/topfunky)
+
+* Using graphics in your documentation helps docs to be consumed in different ways (e.g. flip/skim/read).
+* _Envisioning Information_ Edward Tufte - check out his ideas about graphics.
+* _Information Dashboard Design_ Stephen Few
+* Type/typography
+    * Pull quotes
+    * Title & subtitle
+    * Icon fonts (like http://weloveiconfonts.com/ or [font awesome](http://fortawesome.github.io/Font-Awesome/))
+* Color
+    * Look at all the color schemes for Sublime, for example.
+    * [pygments](http://pygments.org/), [SublimeHighlight](https://github.com/n1k0/SublimeHighlight)
+* Explanatory tools - making a list of ways of explaining things
+    * side-by-side
+    * good/better/best
+    * timeline
+
+###TechDocs at Twitter: Creating the Culture of Documentation - [Simeon Franklin](http://twitter.com/markog) & [Marko Gargenta](http://twitter.com/simeonfranklin)
+
+* 
