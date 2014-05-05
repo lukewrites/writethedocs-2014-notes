@@ -110,3 +110,31 @@ A conference on writing documentation
         * If you're confused, others probably are, too.
     * **Spread out the work** content, format, critique
         * When you teach, you learn.
+
+###Did It In Minutes: The Art of Documenting Meeting Notes [Mo Nishiyama](http://twitter.com/synthcat)
+
+* Hey, meeting minutes are important. Someone should be keeping them.
+* During meetings, [sketchnotes](http://rohdesign.com/book/) are fun but not always productive.
+* Meeting notes shouldn't just barf back what was said. (regurgitation -> curation)
+* So how should you keep meeting notes?
+    * **Understand your audience** Who isn't there?
+        * Who will need to read these notes?
+        * Why will they read them?
+    * **Shared Need**
+        * What will people get the most from?
+            * eg Avoid chronology. Frontload the important stuff.
+    * **Write the Facts**
+        * Meeting minutes should include what's important. You're not a courtroom stenographer; you can summarize.
+    * **Engage your subject matter experts**
+        * Before publication, ask experts questions about your minutes. That'll help you to clarify, qualify, classify.
+    * **Make your action items clear**
+    * **Use collaborative tools**
+        * Makes it easy to fix mistakes, typos, &c
+    * **Use templates to save time**
+    * **Always tell: Who, Where, What**
+    * **Easter Eggs**
+        * Adding in fun stuff will make people read your notes.
+* Exceptions:
+    * If your organization loves chronology, keep it.
+    * If you _are_ a courtroom stenographer, record everything.
+    * If your org has a style guide, stick to it (until you can change it).
