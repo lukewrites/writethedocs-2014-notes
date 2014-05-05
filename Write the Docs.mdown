@@ -47,7 +47,7 @@ A conference on writing documentation
     * How can you bring more people in?
     * What opportunities can the community bring to you?
 
-###The New Sheriff in Town: Bringing Documentation Out of Chaos - [Heidi Waterhouse](http://twitter.com/wiredferret/)
+###The New Sheriff in Town: Bringing Documentation Out of Chaos - [Heidi Waterhouse](http://twitter.com/wiredferret)
 
 * Believe in your own expertise and authority. Then, get to writing.
 * Set Up Shop:
@@ -94,4 +94,19 @@ A conference on writing documentation
     * Do you want to shoot the bandits and leave? Then you're a Texas Ranger
     * Do you want to live in the town and be part of the community? Then you're a sherriff.
 
+###Ignorance Is Strength: Writing Documentation By Learning As You Go - [Amalia Hawkins](https://twitter.com/starsseldomseen)
 
+* People who are have innate understanding of materials often aren't the ones who are the best at explaining it.
+* How do you learn an existing codebase? Read the code, look @ user-facing documentation, ask sr engineers questions.
+    * Reading code is good (tells you how & what), but not _why_? (e.g. What was the developer's intention in writing the code the way it is written?)
+* Internal documentation helps a company to avoid growing pain, scaling both horizontally and vertically.
+    * If you've got (good) technical docs, it's easier for new engineers to hit the ground running.
+* Lessons:
+    * **Write Anything**
+        * Once something exists, it can be massaged into something good.
+        * That cliche about not letting _perfection_ being the enemy of _existing_.
+    * **Find your allies**
+        * Don't believe that you're confused because you're stupid/a n00b/whatever else that's negative.
+        * If you're confused, others probably are, too.
+    * **Spread out the work** content, format, critique
+        * When you teach, you learn.
