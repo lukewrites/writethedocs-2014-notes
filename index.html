@@ -1,73 +1,539 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
-
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
     <title>Writethedocs-2014-notes by lukewrites</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
-    <a id="forkme_banner" href="https://github.com/lukewrites/writethedocs-2014-notes">View on GitHub</a>
-    <div class="shell">
-
+    <div class="wrapper">
       <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Writethedocs-2014-notes</h1>
-            <h2>My notes for the 2014 writethedocs conference</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
+        <h1 class="header">Writethedocs-2014-notes</h1>
+        <p class="header">My notes for the 2014 writethedocs conference</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/lukewrites/writethedocs-2014-notes/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/lukewrites/writethedocs-2014-notes/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/lukewrites/writethedocs-2014-notes">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/lukewrites">lukewrites</a></p>
+
+
       </header>
-
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/lukewrites/writethedocs-2014-notes/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/lukewrites/writethedocs-2014-notes/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
+      <section>
         <h1>
-<a name="writethedocs-2014-notes" class="anchor" href="#writethedocs-2014-notes"><span class="octicon octicon-link"></span></a>writethedocs-2014-notes</h1>
+<a name="write-the-docs" class="anchor" href="#write-the-docs"><span class="octicon octicon-link"></span></a>Write the Docs</h1>
 
-<p>My own notes for the 2014 writethedocs conference; neither stenographic nor comprehensive.</p>
+<p>A conference on writing documentation.
+These notes are notes, not a stenographic record. They're also not spell checked.</p>
 
-<p>Also, not spellchecked.</p>
+<h2>
+<a name="monday" class="anchor" href="#monday"><span class="octicon octicon-link"></span></a>Monday</h2>
+
+<h3>
+<a name="flow-a-permaculture-approach-to-documentation-homer-christensen" class="anchor" href="#flow-a-permaculture-approach-to-documentation-homer-christensen"><span class="octicon octicon-link"></span></a>Flow: A Permaculture Approach to Documentation <a href="http://homerchristensen.com">Homer Christensen</a>
+</h3>
+
+<ul>
+<li>Applying Permaculture idea(l) to docs:
+
+<ul>
+<li>Observe, Design, Evolve</li>
+</ul>
+</li>
+<li>Project Planning: Patterns
+
+<ul>
+<li>When planning projects, you’re using what you’ve got to reach your goals.</li>
+<li>If living systems have natural proclivities, what are the proclivities of your group?
+
+<ul>
+<li>This is a restatement of a basic leadership idea: know your people, know your strengths and weaknesses</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Design
+
+<ul>
+<li>Zones are ‘areas of access’ in permaculture.</li>
+</ul>
+</li>
+</ul><h3>
+<a name="communities-are-awesome---ali-spivak" class="anchor" href="#communities-are-awesome---ali-spivak"><span class="octicon octicon-link"></span></a>Communities are Awesome - Ali Spivak</h3>
+
+<ul>
+<li>
+<a href="https://developer.mozilla.org/en-US/">MDN</a>, the mozilla developer network, is an OS wiki; relies upon the community</li>
+<li>MDN is trying to doc everything that matters to developers. This is difficult since the web is big. (This means that MDN is big, too.)</li>
+<li>Leveraging the power of the community lets MDN document as much as it does. There's paid staff and there's community.</li>
+<li>Benefit of community is that it gives you a wide range of experience, opinions, backgrounds. This lets you know what matters to users (and users in different contexts).</li>
+<li>Important to see users as <em>peers</em>; they're not your minions. (Great word, Ali.)
+
+<ul>
+<li>Users are 'partners on a journey'.</li>
+<li>You don't offload crappy work on them, you don't <em>tell</em> them what to do.</li>
+</ul>
+</li>
+<li>Provide opportunity.
+
+<ul>
+<li>If you say 'Hey, X needs some documentation', people are likely to take you up on it.</li>
+</ul>
+</li>
+<li>Intrinsic (internal) motivation is important
+
+<ul>
+<li>Users will help because they want to, because they feel pleasure from doing so.</li>
+<li>People like contributing their expertise to a large audience of peers.
+
+<ul>
+<li>e.g. Burning Man</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Three Elements of Motivation:
+
+<ol>
+<li>Autonomy</li>
+<li>Mastery</li>
+<li>Purpose</li>
+<li>Check out the book <em>Drive</em> for more about motivation.</li>
+</ol>
+</li>
+<li>The importance of values
+
+<ul>
+<li>Values (clearly stated) give communities something around which to coalesce.</li>
+<li>Clearly these need to be organically developed.</li>
+<li>If your company adheres to and exemplifies these values, this makes it part of the community, not some asshole in a suit treating the community members like unpaid idiot minions.</li>
+</ul>
+</li>
+<li>Collaboration helps you to avoid making wrong decisions.
+
+<ul>
+<li>If users don't want to do it, maybe it isn't the right thing to do.</li>
+</ul>
+</li>
+<li>There isn't necessarily one best way to build a community.
+
+<ul>
+<li>What are you passionate about? How can you share that passion with others?</li>
+<li>What opportunities can you provide to the community?</li>
+<li>How can you create community?</li>
+<li>How can you bring more people in?</li>
+<li>What opportunities can the community bring to you?</li>
+</ul>
+</li>
+</ul><h3>
+<a name="the-new-sheriff-in-town-bringing-documentation-out-of-chaos---heidi-waterhouse" class="anchor" href="#the-new-sheriff-in-town-bringing-documentation-out-of-chaos---heidi-waterhouse"><span class="octicon octicon-link"></span></a>The New Sheriff in Town: Bringing Documentation Out of Chaos - <a href="http://twitter.com/wiredferret">Heidi Waterhouse</a>
+</h3>
+
+<ul>
+<li>Believe in your own expertise and authority. Then, get to writing.</li>
+<li>Set Up Shop:
+
+<ol>
+<li>
+<strong>Make a seating chart</strong> Make a seating chart of who is who in the office.
+
+<ul>
+<li>Names, specialties</li>
+</ul>
+</li>
+<li>
+<strong>Map existing documentation</strong> e.g. marketing whitepapers, wikis, etc.
+
+<ul>
+<li>Make sure you have access</li>
+<li>Be willing to dig.</li>
+<li>You need to see everything in the compay except salaries.</li>
+</ul>
+</li>
+<li>
+<strong>Get to know the neighborhood</strong> (competitors and users)
+
+<ul>
+<li>Read competitiors' docs.</li>
+<li>(users?)</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Draw Fast
+
+<ul>
+<li>
+<strong>No time for frills</strong>
+
+<ul>
+<li>just start writing</li>
+</ul>
+</li>
+<li><strong>Deliver fast and often</strong></li>
+<li>
+<strong>Emergencies first, precisions second</strong>
+
+<ul>
+<li>formatting, readability, localization comes second to putting out fires.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Save the townspeople
+
+<ul>
+<li><strong>Address biggest pain point</strong></li>
+<li>
+<strong>Provide structure to ask q and get feedback</strong>
+
+<ul>
+<li>Bugtrackers</li>
+<li>Declare docs equivalent to code. Needs to be pushed with code.</li>
+<li>Track doc bugs with code bugs.
+
+<ul>
+<li>Provides accountability.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<strong>Check for scorpions</strong> (these are situations, not people)
+
+<ul>
+<li>
+<strong>Hoarded documentation</strong> Is there a bunch of unreadable docs out there?
+
+<ul>
+<li>DO people feel some sort of propriatary interest that is keeping them from sharing their docss?</li>
+</ul>
+</li>
+<li>
+<strong>Stuff from the last sherrif</strong>
+
+<ul>
+<li>Did previous writers leave behind a bunch of junk that needs to be taken care of?</li>
+</ul>
+</li>
+<li>
+<strong>Bring in the vigilantes</strong>
+
+<ul>
+<li>Are people writing docs and not thinking of themselves are part of the doc team?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<strong>Build infrastructure</strong>
+
+<ul>
+<li>After you put out the fires, make sure you've got structure to keep things going.</li>
+<li>Go to meetings. Make sure that docs are part of the agenda.</li>
+<li>
+<strong>Plat your documents</strong> - Plating is designating spaces for certain use.
+
+<ul>
+<li>Can customers <strong>use</strong> the product?</li>
+<li>Can installers <strong>configure</strong> it?</li>
+<li>Can advanced users <strong>customize</strong> it? (e.g. apis)</li>
+<li>Can users <strong>fix</strong> things when they go wrong?</li>
+<li>You'll need a <strong>reference</strong> guide for when things get too big to remember off the top of your head.
+
+<ul>
+<li>Or for when you get bitten by a rattlesnake/go on vacation and aren't around to give all the answers.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<strong>Sheriff or Texas Ranger</strong>?
+
+<ul>
+<li>Do you want to shoot the bandits and leave? Then you're a Texas Ranger</li>
+<li>Do you want to live in the town and be part of the community? Then you're a sherriff.</li>
+</ul>
+</li>
+</ul><h3>
+<a name="ignorance-is-strength-writing-documentation-by-learning-as-you-go---amalia-hawkins" class="anchor" href="#ignorance-is-strength-writing-documentation-by-learning-as-you-go---amalia-hawkins"><span class="octicon octicon-link"></span></a>Ignorance Is Strength: Writing Documentation By Learning As You Go - <a href="https://twitter.com/starsseldomseen">Amalia Hawkins</a>
+</h3>
+
+<ul>
+<li>People who are have innate understanding of materials often aren't the ones who are the best at explaining it.</li>
+<li>How do you learn an existing codebase? Read the code, look @ user-facing documentation, ask sr engineers questions.
+
+<ul>
+<li>Reading code is good (tells you how &amp; what), but not <em>why</em>? (e.g. What was the developer's intention in writing the code the way it is written?)</li>
+</ul>
+</li>
+<li>Internal documentation helps a company to avoid growing pain, scaling both horizontally and vertically.
+
+<ul>
+<li>If you've got (good) technical docs, it's easier for new engineers to hit the ground running.</li>
+</ul>
+</li>
+<li>Lessons:
+
+<ul>
+<li>
+<strong>Write Anything</strong>
+
+<ul>
+<li>Once something exists, it can be massaged into something good.</li>
+<li>That cliche about not letting <em>perfection</em> being the enemy of <em>existing</em>.</li>
+</ul>
+</li>
+<li>
+<strong>Find your allies</strong>
+
+<ul>
+<li>Don't believe that you're confused because you're stupid/a n00b/whatever else that's negative.</li>
+<li>If you're confused, others probably are, too.</li>
+</ul>
+</li>
+<li>
+<strong>Spread out the work</strong> content, format, critique
+
+<ul>
+<li>When you teach, you learn.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h3>
+<a name="did-it-in-minutes-the-art-of-documenting-meeting-notes-mo-nishiyama" class="anchor" href="#did-it-in-minutes-the-art-of-documenting-meeting-notes-mo-nishiyama"><span class="octicon octicon-link"></span></a>Did It In Minutes: The Art of Documenting Meeting Notes <a href="http://twitter.com/synthcat">Mo Nishiyama</a>
+</h3>
+
+<ul>
+<li>Hey, meeting minutes are important. Someone should be keeping them.</li>
+<li>During meetings, <a href="http://rohdesign.com/book/">sketchnotes</a> are fun but not always productive.</li>
+<li>Meeting notes shouldn't just barf back what was said. (regurgitation -&gt; curation)</li>
+<li>So how should you keep meeting notes?
+
+<ul>
+<li>
+<strong>Understand your audience</strong> Who isn't there?
+
+<ul>
+<li>Who will need to read these notes?</li>
+<li>Why will they read them?</li>
+</ul>
+</li>
+<li>
+<strong>Shared Need</strong>
+
+<ul>
+<li>What will people get the most from?
+
+<ul>
+<li>eg Avoid chronology. Frontload the important stuff.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<strong>Write the Facts</strong>
+
+<ul>
+<li>Meeting minutes should include what's important. You're not a courtroom stenographer; you can summarize.</li>
+</ul>
+</li>
+<li>
+<strong>Engage your subject matter experts</strong>
+
+<ul>
+<li>Before publication, ask experts questions about your minutes. That'll help you to clarify, qualify, classify.</li>
+</ul>
+</li>
+<li><strong>Make your action items clear</strong></li>
+<li>
+<strong>Use collaborative tools</strong>
+
+<ul>
+<li>Makes it easy to fix mistakes, typos, &amp;c</li>
+</ul>
+</li>
+<li><strong>Use templates to save time</strong></li>
+<li><strong>Always tell: Who, Where, What</strong></li>
+<li>
+<strong>Easter Eggs</strong>
+
+<ul>
+<li>Adding in fun stuff will make people read your notes.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Exceptions:
+
+<ul>
+<li>If your organization loves chronology, keep it.</li>
+<li>If you <em>are</em> a courtroom stenographer, record everything.</li>
+<li>If your org has a style guide, stick to it (until you can change it).</li>
+</ul>
+</li>
+</ul><h3>
+<a name="hacking-the-english-language---nina-vyedin" class="anchor" href="#hacking-the-english-language---nina-vyedin"><span class="octicon octicon-link"></span></a>Hacking the English Language - <a href="">Nina Vyedin</a>
+</h3>
+
+<p><em>Or, what we can steal from programmers</em></p>
+
+<ul>
+<li>Documentation can be helped by giving writers a default framework in which to write/work.</li>
+<li>Have templates for oft-written stuff: blog posts, references</li>
+<li>Make sure you know what question a doc is trying to answer.</li>
+<li>
+<strong>make a spec</strong> for your doc and make sure everyone involved knows the specs.
+
+<ul>
+<li>what are the questions you're answering?</li>
+<li>who is the audience?</li>
+<li>what is the current state of documentation?
+
+<ul>
+<li>new content, existing content (including 3rd party docs)</li>
+</ul>
+</li>
+<li>what's the work plan?
+
+<ul>
+<li>who owns it, who revises it?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>adapting the idea of <em>design patterns</em> to writing; start a doc with an architecture. examples:
+
+<ul>
+<li>
+<strong>tell a story</strong> linear timeline (walkthrough)</li>
+<li>
+<strong>paint a picture</strong> spapshot (introduce feature/tool)</li>
+<li>
+<strong>reference</strong> introduce one at a time and describe</li>
+<li>
+<strong>theme + situation</strong> idea and use cases (intro to concept)</li>
+<li>
+<strong>drill down</strong> general -&gt; specific</li>
+<li>
+<strong>level up</strong> simple to complex (getting started.doc)</li>
+</ul>
+</li>
+<li>Errors/name your variables
+
+<ul>
+<li>Undefined 'it'</li>
+<li>No ownership (avoid magic. [that doesn't mean no django])</li>
+<li>Vague terms (don't use generic tech terms)</li>
+<li>Unnamed ideas</li>
+</ul>
+</li>
+<li>Idea of <em>refactoring</em> vs <em>editing</em>
+</li>
+</ul><h3>
+<a name="open-source-docs-the-hard-way---anne-gentle" class="anchor" href="#open-source-docs-the-hard-way---anne-gentle"><span class="octicon octicon-link"></span></a>Open Source Docs the Hard Way - <a href="http://justwriteclick.com/">Anne Gentle</a>
+</h3>
+
+<ul>
+<li>Seems like the 80/20 'principle' (editorial scarequotes there); a small segment of contributers put in the bulk of the work.</li>
+<li>Book sprints!
+
+<ul>
+<li>
+<a href="http://openstack.org">OpenStack</a> flew in a whole bunch of writing volunteers and wrote the <em>OpenStack Operations Guide</em>, which wound up being published by O'Reilly.</li>
+</ul>
+</li>
+<li>OSS works; open source docs can work, too.</li>
+</ul><h3>
+<a name="documenting-domain-specific-knowledge---alex-gaynor" class="anchor" href="#documenting-domain-specific-knowledge---alex-gaynor"><span class="octicon octicon-link"></span></a>Documenting Domain Specific Knowledge - <a href="https://speakerdeck.com/alex">Alex Gaynor</a>
+</h3>
+
+<ul>
+<li>Think about who the documentation is for.</li>
+<li>Audience – set of knowledge people will come with.</li>
+<li>Document according to audiences; e.g. new users and experts</li>
+<li>Thinks that <em>straight line docs</em> are best; optional stuff can be linked. Trim the fat, it distracts.</li>
+<li>No assumptions: e.g. no jargon.</li>
+<li>It's fine to be prescriptive. You're an expert; share that expertise by informing the reader as to best practices. (Drowning readers in options is often, IMHO, a form of showbloating.)</li>
+<li>Addressing <em>use cases</em> is great. Finding out what use cases the community wants/needs is probably difficult if you don't have a strong community. Good argument for not treating your community like minions/rubes, btw.</li>
+<li>If users have to go to Stack Overflow to figure out your docs, your docs fail.</li>
+<li>Learners often don't know what they don't know. The docs need to inform users of everything they ought to know.</li>
+<li>Users asking 'How do I X?' is feedback on docs.</li>
+</ul><h3>
+<a name="graphical-explanations---geoffrey-grosenbach" class="anchor" href="#graphical-explanations---geoffrey-grosenbach"><span class="octicon octicon-link"></span></a>Graphical Explanations - <a href="http://twitter.com/topfunky">Geoffrey Grosenbach</a>
+</h3>
+
+<ul>
+<li>Using graphics in your documentation helps docs to be consumed in different ways (e.g. flip/skim/read).</li>
+<li>
+<em>Envisioning Information</em> Edward Tufte - check out his ideas about graphics.</li>
+<li>
+<em>Information Dashboard Design</em> Stephen Few</li>
+<li>Type/typography
+
+<ul>
+<li>Pull quotes</li>
+<li>Title &amp; subtitle</li>
+<li>Icon fonts (like <a href="http://weloveiconfonts.com/">http://weloveiconfonts.com/</a> or <a href="http://fortawesome.github.io/Font-Awesome/">font awesome</a>)</li>
+</ul>
+</li>
+<li>Color
+
+<ul>
+<li>Look at all the color schemes for Sublime, for example.</li>
+<li>
+<a href="http://pygments.org/">pygments</a>, <a href="https://github.com/n1k0/SublimeHighlight">SublimeHighlight</a>
+</li>
+</ul>
+</li>
+<li>Explanatory tools - making a list of ways of explaining things
+
+<ul>
+<li>side-by-side</li>
+<li>good/better/best</li>
+<li>timeline</li>
+</ul>
+</li>
+</ul><h3>
+<a name="techdocs-at-twitter-creating-the-culture-of-documentation---simeon-franklin--marko-gargenta" class="anchor" href="#techdocs-at-twitter-creating-the-culture-of-documentation---simeon-franklin--marko-gargenta"><span class="octicon octicon-link"></span></a>TechDocs at Twitter: Creating the Culture of Documentation - <a href="http://twitter.com/markog">Simeon Franklin</a> &amp; <a href="http://twitter.com/simeonfranklin">Marko Gargenta</a>
+</h3>
+
+<ul>
+<li>What does it mean to do technical documentation (engineer to engineer)?</li>
+<li>Treat docs like code; written by engineers</li>
+<li>Wikis are messy. Not the best solution</li>
+<li>If developers are writing code, <em>use the existing code workflow</em>.
+
+<ul>
+<li>Check in! Version, check, merge!</li>
+<li>Harder for the writers, but much easier for the developers.</li>
+</ul>
+</li>
+<li><a href="http://docutils.sourceforge.net/rst.html">ReStructuredText</a></li>
+<li>Made a plan. e.g. DocDay -&gt; Templates -&gt; DocBird (platform)</li>
+<li>Thinking of documentation as a platform opens up all sort of cool possibilities.</li>
+</ul>
       </section>
-
       <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/lukewrites">lukewrites</a> can be found on <a href="https://github.com/lukewrites/writethedocs-2014-notes">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
-
     </div>
-
-    
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
   </body>
 </html>
