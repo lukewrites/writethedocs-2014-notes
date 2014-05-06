@@ -1,6 +1,218 @@
-writethedocs-2014-notes
-=======================
+#Write the Docs
+A conference on writing documentation.
+These notes are notes, not a stenographic record. They're also not spell checked.
 
-My own notes for the 2014 writethedocs conference; neither stenographic nor comprehensive.
+##Monday
 
-Also, not spellchecked.
+###Flow: A Permaculture Approach to Documentation [Homer Christensen](http://homerchristensen.com)
+
+* Applying Permaculture idea(l) to docs:
+    * Observe, Design, Evolve
+* Project Planning: Patterns
+      * When planning projects, you’re using what you’ve got to reach your goals.
+      * If living systems have natural proclivities, what are the proclivities of your group?
+           * This is a restatement of a basic leadership idea: know your people, know your strengths and weaknesses
+* Design
+     * Zones are ‘areas of access’ in permaculture.
+
+###Communities are Awesome - Ali Spivak
+
+* [MDN](https://developer.mozilla.org/en-US/), the mozilla developer network, is an OS wiki; relies upon the community
+* MDN is trying to doc everything that matters to developers. This is difficult since the web is big. (This means that MDN is big, too.)
+* Leveraging the power of the community lets MDN document as much as it does. There's paid staff and there's community.
+* Benefit of community is that it gives you a wide range of experience, opinions, backgrounds. This lets you know what matters to users (and users in different contexts).
+* Important to see users as _peers_; they're not your minions. (Great word, Ali.)
+    * Users are 'partners on a journey'.
+    * You don't offload crappy work on them, you don't _tell_ them what to do.
+* Provide opportunity.
+    * If you say 'Hey, X needs some documentation', people are likely to take you up on it.
+* Intrinsic (internal) motivation is important
+    * Users will help because they want to, because they feel pleasure from doing so.
+    * People like contributing their expertise to a large audience of peers.
+        * e.g. Burning Man
+* Three Elements of Motivation:
+    1. Autonomy
+    2. Mastery
+    3. Purpose
+    * Check out the book _Drive_ for more about motivation.
+* The importance of values
+    * Values (clearly stated) give communities something around which to coalesce.
+    * Clearly these need to be organically developed.
+    * If your company adheres to and exemplifies these values, this makes it part of the community, not some asshole in a suit treating the community members like unpaid idiot minions.
+* Collaboration helps you to avoid making wrong decisions.
+    * If users don't want to do it, maybe it isn't the right thing to do.
+* There isn't necessarily one best way to build a community.
+    * What are you passionate about? How can you share that passion with others?
+    * What opportunities can you provide to the community?
+    * How can you create community?
+    * How can you bring more people in?
+    * What opportunities can the community bring to you?
+
+###The New Sheriff in Town: Bringing Documentation Out of Chaos - [Heidi Waterhouse](http://twitter.com/wiredferret)
+
+* Believe in your own expertise and authority. Then, get to writing.
+* Set Up Shop:
+    1. **Make a seating chart** Make a seating chart of who is who in the office.
+        * Names, specialties
+    2. **Map existing documentation** e.g. marketing whitepapers, wikis, etc.
+        * Make sure you have access
+        * Be willing to dig.
+        * You need to see everything in the compay except salaries.
+    3. **Get to know the neighborhood** (competitors and users)
+        * Read competitiors' docs.
+        * (users?)
+* Draw Fast
+    * **No time for frills**
+        * just start writing
+    * **Deliver fast and often**
+    * **Emergencies first, precisions second**
+        * formatting, readability, localization comes second to putting out fires.
+* Save the townspeople
+    * **Address biggest pain point**
+    * **Provide structure to ask q and get feedback**
+        * Bugtrackers
+        * Declare docs equivalent to code. Needs to be pushed with code.
+        * Track doc bugs with code bugs.
+            * Provides accountability.
+* **Check for scorpions** (these are situations, not people)
+    * **Hoarded documentation** Is there a bunch of unreadable docs out there?
+        * DO people feel some sort of propriatary interest that is keeping them from sharing their docss?
+    * **Stuff from the last sherrif**
+        * Did previous writers leave behind a bunch of junk that needs to be taken care of?
+    * **Bring in the vigilantes**
+        * Are people writing docs and not thinking of themselves are part of the doc team?
+* **Build infrastructure**
+    * After you put out the fires, make sure you've got structure to keep things going.
+    * Go to meetings. Make sure that docs are part of the agenda.
+    * **Plat your documents** - Plating is designating spaces for certain use.
+        * Can customers **use** the product?
+        * Can installers **configure** it?
+        * Can advanced users **customize** it? (e.g. apis)
+        * Can users **fix** things when they go wrong?
+        * You'll need a **reference** guide for when things get too big to remember off the top of your head.
+            * Or for when you get bitten by a rattlesnake/go on vacation and aren't around to give all the answers.
+* **Sheriff or Texas Ranger**?
+    * Do you want to shoot the bandits and leave? Then you're a Texas Ranger
+    * Do you want to live in the town and be part of the community? Then you're a sherriff.
+
+###Ignorance Is Strength: Writing Documentation By Learning As You Go - [Amalia Hawkins](https://twitter.com/starsseldomseen)
+
+* People who are have innate understanding of materials often aren't the ones who are the best at explaining it.
+* How do you learn an existing codebase? Read the code, look @ user-facing documentation, ask sr engineers questions.
+    * Reading code is good (tells you how & what), but not _why_? (e.g. What was the developer's intention in writing the code the way it is written?)
+* Internal documentation helps a company to avoid growing pain, scaling both horizontally and vertically.
+    * If you've got (good) technical docs, it's easier for new engineers to hit the ground running.
+* Lessons:
+    * **Write Anything**
+        * Once something exists, it can be massaged into something good.
+        * That cliche about not letting _perfection_ being the enemy of _existing_.
+    * **Find your allies**
+        * Don't believe that you're confused because you're stupid/a n00b/whatever else that's negative.
+        * If you're confused, others probably are, too.
+    * **Spread out the work** content, format, critique
+        * When you teach, you learn.
+
+###Did It In Minutes: The Art of Documenting Meeting Notes [Mo Nishiyama](http://twitter.com/synthcat)
+
+* Hey, meeting minutes are important. Someone should be keeping them.
+* During meetings, [sketchnotes](http://rohdesign.com/book/) are fun but not always productive.
+* Meeting notes shouldn't just barf back what was said. (regurgitation -> curation)
+* So how should you keep meeting notes?
+    * **Understand your audience** Who isn't there?
+        * Who will need to read these notes?
+        * Why will they read them?
+    * **Shared Need**
+        * What will people get the most from?
+            * eg Avoid chronology. Frontload the important stuff.
+    * **Write the Facts**
+        * Meeting minutes should include what's important. You're not a courtroom stenographer; you can summarize.
+    * **Engage your subject matter experts**
+        * Before publication, ask experts questions about your minutes. That'll help you to clarify, qualify, classify.
+    * **Make your action items clear**
+    * **Use collaborative tools**
+        * Makes it easy to fix mistakes, typos, &c
+    * **Use templates to save time**
+    * **Always tell: Who, Where, What**
+    * **Easter Eggs**
+        * Adding in fun stuff will make people read your notes.
+* Exceptions:
+    * If your organization loves chronology, keep it.
+    * If you _are_ a courtroom stenographer, record everything.
+    * If your org has a style guide, stick to it (until you can change it).
+
+###Hacking the English Language - [Nina Vyedin]()
+
+_Or, what we can steal from programmers_
+
+* Documentation can be helped by giving writers a default framework in which to write/work.
+* Have templates for oft-written stuff: blog posts, references
+* Make sure you know what question a doc is trying to answer.
+* **make a spec** for your doc and make sure everyone involved knows the specs.
+    * what are the questions you're answering?
+    * who is the audience?
+    * what is the current state of documentation?
+        * new content, existing content (including 3rd party docs)
+    * what's the work plan?
+        * who owns it, who revises it?
+* adapting the idea of _design patterns_ to writing; start a doc with an architecture. examples:
+    * **tell a story** linear timeline (walkthrough)
+    * **paint a picture** spapshot (introduce feature/tool)
+    * **reference** introduce one at a time and describe
+    * **theme + situation** idea and use cases (intro to concept)
+    * **drill down** general -> specific
+    * **level up** simple to complex (getting started.doc)
+* Errors/name your variables
+    * Undefined 'it'
+    * No ownership (avoid magic. [that doesn't mean no django])
+    * Vague terms (don't use generic tech terms)
+    * Unnamed ideas
+* Idea of _refactoring_ vs _editing_
+
+###Open Source Docs the Hard Way - [Anne Gentle](http://justwriteclick.com/)
+
+* Seems like the 80/20 'principle' (editorial scarequotes there); a small segment of contributers put in the bulk of the work.
+* Book sprints!
+    * [OpenStack](http://openstack.org) flew in a whole bunch of writing volunteers and wrote the _OpenStack Operations Guide_, which wound up being published by O'Reilly.
+* OSS works; open source docs can work, too.
+
+###Documenting Domain Specific Knowledge - [Alex Gaynor](https://speakerdeck.com/alex)
+
+* Think about who the documentation is for.
+* Audience – set of knowledge people will come with.
+* Document according to audiences; e.g. new users and experts
+* Thinks that _straight line docs_ are best; optional stuff can be linked. Trim the fat, it distracts.
+* No assumptions: e.g. no jargon.
+* It's fine to be prescriptive. You're an expert; share that expertise by informing the reader as to best practices. (Drowning readers in options is often, IMHO, a form of showbloating.)
+* Addressing _use cases_ is great. Finding out what use cases the community wants/needs is probably difficult if you don't have a strong community. Good argument for not treating your community like minions/rubes, btw.
+* If users have to go to Stack Overflow to figure out your docs, your docs fail.
+* Learners often don't know what they don't know. The docs need to inform users of everything they ought to know.
+* Users asking 'How do I X?' is feedback on docs.
+
+###Graphical Explanations - [Geoffrey Grosenbach](http://twitter.com/topfunky)
+
+* Using graphics in your documentation helps docs to be consumed in different ways (e.g. flip/skim/read).
+* _Envisioning Information_ Edward Tufte - check out his ideas about graphics.
+* _Information Dashboard Design_ Stephen Few
+* Type/typography
+    * Pull quotes
+    * Title & subtitle
+    * Icon fonts (like http://weloveiconfonts.com/ or [font awesome](http://fortawesome.github.io/Font-Awesome/))
+* Color
+    * Look at all the color schemes for Sublime, for example.
+    * [pygments](http://pygments.org/), [SublimeHighlight](https://github.com/n1k0/SublimeHighlight)
+* Explanatory tools - making a list of ways of explaining things
+    * side-by-side
+    * good/better/best
+    * timeline
+
+###TechDocs at Twitter: Creating the Culture of Documentation - [Simeon Franklin](http://twitter.com/markog) & [Marko Gargenta](http://twitter.com/simeonfranklin)
+
+* What does it mean to do technical documentation (engineer to engineer)?
+* Treat docs like code; written by engineers
+* Wikis are messy. Not the best solution
+* If developers are writing code, _use the existing code workflow_.
+    * Check in! Version, check, merge!
+    * Harder for the writers, but much easier for the developers.
+* [ReStructuredText](http://docutils.sourceforge.net/rst.html)
+* Made a plan. e.g. DocDay -> Templates -> DocBird (platform)
+* Thinking of documentation as a platform opens up all sort of cool possibilities.
